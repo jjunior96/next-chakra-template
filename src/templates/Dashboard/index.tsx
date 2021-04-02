@@ -1,11 +1,15 @@
-import Main from 'components/Main';
-import * as S from './styles';
+import { Flex, Text } from '@chakra-ui/react';
 
-const Dashboard: React.FC = () => {
+const Dashboard = () => {
   return (
-    <S.Container>
-      <Main />
-    </S.Container>
+    <Flex
+      with="100vw"
+      height="100vh"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <Text fontSize="xl">Hello World</Text>
+    </Flex>
   );
 };
 

@@ -1,60 +1,30 @@
-export default {
-  grid: {
-    container: '130rem',
-    gutter: '3.2rem'
-  },
-  border: {
-    radius: '0.4rem'
-  },
-  box: {
-    shadow: '0 8px 8px rgba(0, 0, 0, 0.08)'
-  },
-  font: {
-    family:
-      "Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    light: 300,
-    normal: 400,
-    bold: 600,
-    sizes: {
-      xsmall: '1.2rem',
-      small: '1.4rem',
-      medium: '1.6rem',
-      large: '1.8rem',
-      xlarge: '2.0rem',
-      xxlarge: '2.8rem',
-      huge: '5.2rem'
+import { extendTheme } from '@chakra-ui/react';
+
+export const theme = extendTheme({
+  colors: {
+    gray: {
+      '900': '#181b23',
+      '800': '#1f2029',
+      '700': '#353646',
+      '600': '#4b4d63',
+      '500': '#616480',
+      '400': '#797d9a',
+      '300': '#9699b0',
+      '200': '#b3b5c6',
+      '100': '#d1d2d0',
+      '50': '#eeeef2'
     }
   },
-  colors: {
-    primary: '',
-    secondary: '',
-    mainBg: '',
-    lightBg: '',
-    white: '',
-    black: '',
-    lightGray: '',
-    gray: '',
-    darkGray: '',
-    red: ''
+  fonts: {
+    heading: 'Roboto',
+    body: 'Roboto'
   },
-  spacings: {
-    xxsmall: '0.8rem',
-    xsmall: '1.6rem',
-    small: '2.4rem',
-    medium: '3.2rem',
-    large: '4.0rem',
-    xlarge: '4.8rem',
-    xxlarge: '5.6rem'
-  },
-  layers: {
-    base: 10,
-    menu: 20,
-    overlay: 30,
-    modal: 40,
-    alwaysOnTop: 50
-  },
-  transition: {
-    default: '0.3s ease-in-out',
-    fast: '0.1s ease-in-out'
+  styles: {
+    global: {
+      body: {
+        backgroundColor: 'gray.900',
+        color: 'gray.50'
+      }
+    }
   }
-} as const;
+});
