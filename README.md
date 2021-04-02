@@ -20,7 +20,7 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 The best way to start with this template is using `create-next-app`.
 
 ```
-npx create-next-app project-name -e https://github.com/jjunior96/next-template
+npx create-next-app project-name -e https://github.com/jjunior96/next-chakra-template
 ```
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
