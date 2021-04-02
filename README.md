@@ -6,14 +6,12 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🐙 **React Testing Library (RTL)** - Builds by adding APIs for working with React components
 - 🃏 **Jest** - A delightful JavaScript Testing Framework with a focus on simplicity
-- 💅 **Styled Components (with SSR)** - Use the best bits of ES6 and CSS to style your apps without stress
+- ⚡️ **Chakra UI** - A simple, modular and accessible component library that gives you the building blocks you need to build your React applications
 
 ### Other libs
 - **Axios**
 - **Polished**
-- **React-Spring**
 - **Unform**
-- **UUID**
 - **Yup**
 
 
