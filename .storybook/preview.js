@@ -1,13 +1,13 @@
-import { ThemeProvider } from 'styled-components';
+import { ChakraProvider } from '@chakra-ui/react';
 import GlobalStyles from '../src/styles/global';
 import theme from '../src/styles/theme';
 
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={theme}>
+    <ChakraProvider theme={theme}>
       <GlobalStyles />
       <Story />
-    </ThemeProvider>
+    </ChakraProvider>
   )
 ]
 
